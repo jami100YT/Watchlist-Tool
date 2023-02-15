@@ -6,6 +6,7 @@ Mit dieser Chrome Extension kannst du deinen Fortschritt von deiner lieblings Se
 
 
 # Wie füge ich die Extension hinzu?
-- Füge die Chrome Extension deinem Browser hinzu.
-- Gib in der Leiste oben links den Namen der Serie ein.
-- Bearbeite nun in den folgenden feldern wie weit du bist.
+1. Öffne deinen Browser und gehe zu den Bereich Erweiterungen
+2. Klicke nun auf den Button "Entpackte Erweiterung laden"
+3. Wähle den Ordner "Watchlist Tool" (Den Ordner von der Extension)
+4. Nun kannst du die Extension frei benutzen allerdings wäre es sehr praktisch diese noch an zu pinnen damit du sie direkt benutzen kannst
