@@ -1,0 +1,199 @@
+body{
+    width: 541px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: gray ;
+    width: auto;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.topBarLeft{
+    display: flex;
+    width: auto;
+    margin-top: -2px;
+    background-color: aqua;
+}
+
+.topBarRight{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    margin-top: -2px;
+    height: auto;
+}
+
+.leftSite{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.rightSite{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 300px;
+
+}
+
+.topButtons{
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-left: -2px;
+}
+
+.topInput{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 100%;
+}
+
+.topOutput:disabled{
+    width: 100%;
+    height: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    color: black;
+}
+
+
+.content{
+    width: auto;
+    height: 100%;
+}
+
+.leftContent{
+    width: 100%;
+    height: 95.2%;
+    overflow-y: scroll;
+}
+
+.buttonList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.rightContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.area{
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "eins zwei"
+    "drei vier"
+    "fuenf sechs";
+}
+
+.watchlistTel{
+    width: 60px;
+    height: 25px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.selectedButton{
+    background-color: #DADADA;
+}
+
+.seriesButtons{
+    background-color: #DADADA;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-left: 0;
+    border-right: 0;
+    min-height: 50px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.notSave{
+    background-color: rgb(191, 28, 28);
+}
+
+.seriesButtons:hover{
+    background-color: #4f4e4e;
+    color: white;
+
+}
+
+.watchlistTel:disabled{
+    color: black;
+    border-color: black;
+    text-align: left;
+}
+
+.are{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomBar{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: -25%;
+    right: 5%;
+}
+
+#createButton{
+    background-color: rgb(51, 214, 51);
+}
+
+#deleteButton{
+    background-color: rgb(191, 28, 28);
+}
+
+.item-1{
+    grid-area: eins;
+}
+.item-2{
+    grid-area: zwei;
+}
+.item-3{
+    grid-area: drei;
+}
+.item-4{
+    grid-area: vier;
+}
+.item-5{
+    grid-area: fuenf;
+}
+.item-6{
+    grid-area: sechs;
+}
+
+
+

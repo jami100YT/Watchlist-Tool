@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Watchlist Tool",
+    "description": "You can use this to write down, for example, how far you are with an anime or a series",
+    "version": "1.0",
+    "icons":{
+        "16": "/images/Icon-16.png",
+        "48": "/images/Icon-48.png",
+        "128": "/images/Icon-128.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/images/Icon-128.png",
+        "default_title": "WATCHLIST TOOL"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

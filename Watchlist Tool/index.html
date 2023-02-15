@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Watchlist Tool</title>
+</head>
+  <body>
+      <div class="container">
+        <div class="leftSite">
+          <div class="topBarLeft">
+            <input id="createButton" class="topButtons" type="image" src="images/Create_Icon.png">
+            <input id="deleteButton" class="topButtons" type="image" src="images/Delete_Icon.png">
+            <input id="inputText" class="topInput" type="text">
+          </div>
+          <div class="leftContent">
+            <div id="buttonList" class="buttonList">
+            </div>
+          </div>
+        </div>
+        <div class="rightSite">
+            <div class="topBarRight">
+                <input id="outputText" class="topInput topOutput" type="text" value=""></div>
+            <div class="rightContent">
+
+               <div class="area">
+                  <span class="item-1">Staffel: </span> <input class="watchlistTel item-2" id="staffelInput" type="number">
+                  <br>
+                  <span class="item-3">Folge: </span> <input class="watchlistTel item-4" id="folgeInput" type="number">
+                  <br>
+                  <span class="item-5">Zeit: </span> <input class="watchlistTel item-6" id="zeitInput" type="text">
+               </div>
+
+                <div class="bottomBar">
+                    <input class="topButtons" id="saveButton" type="image" src="images/Save_Icon.png">
+                    <input class="topButtons" value="true" type="image" id="editButton" src="images/Edit_Icon.png">
+                </div>
+            </div>
+        </div>
+
+      </div>
+  </body>
+</html>
